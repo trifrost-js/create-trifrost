@@ -43,6 +43,7 @@ jobs:
           rm -rf ./bin
           mkdir ./bin
           sh build.sh
+          cp favicon.ico ./bin
       - name: Publish to npm
         run: |
           npm publish --access public --verbose
