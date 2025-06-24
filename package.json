@@ -1,0 +1,41 @@
+{
+  "name": "create-trifrost",
+  "description": "CLI Creation tool for TriFrost, the blazingly fast, runtime-agnostic server framework for modern edge and node environments",
+  "keywords": [
+    "cli",
+    "server",
+    "framework",
+    "edge",
+    "runtime-agnostic",
+    "typescript",
+    "nodejs",
+    "bun",
+    "uWebSockets.js",
+    "trifrost"
+  ],
+  "version": "0.1.0",
+  "bin": {
+    "create-trifrost": "bin/create-trifrost.cli.js"
+  },
+  "type": "module",
+  "author": {
+    "name": "Peter Vermeulen",
+    "url": "https://www.linkedin.com/in/petervermeulen1/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trifrost-js/create-trifrost.git"
+  },
+  "bugs": {
+    "url": "https://github.com/trifrost-js/create-trifrost/issues"
+  },
+  "homepage": "https://trifrost.dev",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "picocolors": "^1.1.1",
+    "prompts": "^2.4.2"
+  }
+}
