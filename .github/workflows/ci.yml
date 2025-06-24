@@ -60,4 +60,4 @@ jobs:
           VERSION="${GITHUB_REF#refs/tags/}"
           curl -X POST "$DISCORD_WEBHOOK_URL" \
             -H "Content-Type: application/json" \
-            -d "{\"content\":\"🚀 **trifrost-create:${VERSION} has just been published!**\nRead all about it at https://www.trifrost.dev/news/releases/${VERSION}\"}"
+            -d "{\"content\":\"🚀 **trifrost-create:${VERSION} has just been published!**\nRead all about it at https://github.com/trifrost-js/create-trifrost/releases/tags/${VERSION}\"}"
