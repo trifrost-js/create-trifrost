@@ -34,8 +34,10 @@ jobs:
         with:
           node-version: 22
           registry-url: 'https://registry.npmjs.org/'
+      - name: Install Bun
+        uses: oven-sh/setup-bun@f4d14e03ff726c06358e5557344e1da148b56cf7 # v1
       - name: Install Dependencies
-        run: npm ci
+        run: bun install
       - name: Prepare distribution
         run: |
           rm -rf ./bin
