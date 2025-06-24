@@ -4,6 +4,7 @@
 [![CI](https://github.com/trifrost-js/create-trifrost/actions/workflows/ci.yml/badge.svg)](https://github.com/trifrost-js/create-trifrost/actions/workflows/ci.yml)
 [![npm](https://img.shields.io/npm/v/create-trifrost.svg)](https://www.npmjs.com/package/create-trifrost)
 [![npm](https://img.shields.io/npm/dm/create-trifrost.svg)](https://www.npmjs.com/package/create-trifrost)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ftrifrost-js%2Fcreate-trifrost.svg?type=large&issueType=license)](https://app.fossa.com/projects/git%2Bgithub.com%2Ftrifrost-js%2Fcreate-trifrost?ref=badge_large&issueType=license)
 
 > The official project scaffolder for [TriFrost](https://www.trifrost.dev) — create blazing-fast apps in seconds.
 
