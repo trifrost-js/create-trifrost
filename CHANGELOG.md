@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.5.0] - 2025-07-01
+### Added
+- **feat**: Extend create-trifrost CLI with unified security key generation flow for JWT and cookie signing.
+- **feat**: Added support for the following algorithms via the Security Keys flow: `HS256`, `HS384`, `HS512` (HMAC), `RS256`, `RS384`, `RS512` (RSA with selectable 2048/4096-bit strength), `ES256`, `ES384`, `ES512` (ECDSA with P-256, P-384, P-521)
+- **feat**: All generated keys are output as `keys.env` to a path of your choosing with proper escaping and cross-runtime compatibility.
+
+### Changed
+- **improve**: Reworked CLI structure, now begins with a clear `What are we creating today?` task selector (`project` or `security-keys`), simplifying guided flows.
+
 ## [0.4.0] - 2025-07-01
 ### Improved
 - Removed `<Style />` injection as no longer necessary since TriFrost 0.42.x

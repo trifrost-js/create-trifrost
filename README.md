@@ -38,9 +38,39 @@ bun create trifrost@latest
 
 ---
 
+## 🔐 Security Key Generation
+In addition to scaffolding full apps, you can now generate secure JWT-ready secrets and keypairs:
+```bash
+npm create trifrost@latest
+```
+Then choose:
+```bash
+? What are we creating today?
+  ❯ Security Keys (JWT/Cookie signing, etc)
+```
+
+Supported types:
+- `HS256`, `HS384`, `HS512` (HMAC with high-entropy base64 secrets)
+- `RS256`, `RS384`, `RS512` (RSA with 2048/4096-bit strength)
+- `ES256`, `ES384`, `ES512` (ECDSA with P-256 / P-384 / P-521 curves)
+
+Secrets and keys are safely escaped and saved as `.env`-ready variables:
+```bash
+# HMAC
+SECRET="kAoZfUj3gQxlI9A+Y..."
+
+# RSA/ECDSA
+PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\nMIIEvAIBADA..."
+PUBLIC_KEY="-----BEGIN PUBLIC KEY-----\nMIIBIjANBg..."
+```
+
+Add them to your .env file and you can load them at runtime via ctx.env.SECRET, ctx.env.PRIVATE_KEY, and ctx.env.PUBLIC_KEY, etc.
+
+---
+
 ## 📦 Example Usage
 ```bash
-npm create trifrost
+npm create trifrost@latest
 ```
 
 And follow the prompts:

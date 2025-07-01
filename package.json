@@ -9,12 +9,15 @@
     "runtime-agnostic",
     "typescript",
     "cloudflare_workers",
+    "hmac",
+    "rsa",
+    "ecdsa",
     "workerd",
     "nodejs",
     "bun",
     "trifrost"
   ],
-  "version": "0.4.0",
+  "version": "0.5.0",
   "bin": {
     "create-trifrost": "bin/create-trifrost.cli.js"
   },
