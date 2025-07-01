@@ -9,7 +9,7 @@
 
 [TriFrost](https://github.com/trifrost-js/core) is a blazing-fast, runtime-agnostic server framework built for the modern JavaScript ecosystem — from low-latency edge environments to traditional backend infrastructure.
 
-Whether you're deploying to Node.js, Bun, Cloudflare Workers, or uWebSockets.js, TriFrost provides a unified API and internal architecture that adapts to the runtime — without compromising on performance, developer experience, or clarity.
+Whether you're deploying to Node.js, Bun, or Cloudflare Workers, TriFrost provides a unified API and internal architecture that adapts to the runtime — without compromising on performance, developer experience, or clarity.
 
 ---
 
